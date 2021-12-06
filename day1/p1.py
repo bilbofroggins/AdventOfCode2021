@@ -1,4 +1,5 @@
-arr = [1,2,3,3,4]
+with open('input.txt') as f:
+  arr = [int(line.rstrip('\n')) for line in f]
 
 count = 0
 last = arr[0]

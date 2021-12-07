@@ -9,7 +9,7 @@ best_position = int(math.floor(sum(sorted_crabs) / len(sorted_crabs)))
 fuel = 0
 for c in sorted_crabs:
 	diff = abs(c - best_position)
-	triangularNumber = int(diff*(diff+1)/2)
-	fuel += triangularNumber
+	triangular_number = int(diff*(diff+1)/2)
+	fuel += triangular_number
 
 print(fuel)
